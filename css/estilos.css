@@ -1,0 +1,130 @@
+
+body{
+    background-color: #dedede;
+}
+
+.formulario{
+    width:40%;
+    margin: 0 auto;
+    margin-top:3em;
+    padding:10px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color:white;
+    border-radius:10px;
+    margin-bottom: 3em;
+}
+
+h1{
+    text-align: center;
+    font-family:'Roboto';
+}
+
+.container{
+    width:70%;
+    margin: 0 auto;
+}
+
+.fila1{
+    display: flex;
+}
+
+.fila2{
+    display: flex;
+}
+
+.fila3{
+    display: flex;
+}
+
+
+.fila1 > input {
+    
+    margin-left: 5.0em;
+    width:100%;
+    margin-bottom: 1em;
+    /*border:2px solid black;*/
+}
+
+.fila2 > input{
+    margin-left: 5.7em;
+    width: 100%;
+    margin-bottom: 1em;
+    /*border:2px solid black;*/
+}
+
+.fila3 > input{
+    margin-left: 5.5em;
+    width: 100%;
+    margin-bottom: 1em;
+    /*border:2px solid black;*/
+}
+
+.fila4 > textarea {
+    margin-left: 8.2em;
+    width: 70%;
+    height: 100px;
+    margin-bottom: 1em;
+}
+
+.fila1 > label {
+    font-family:'Roboto';
+}
+
+.fila2 > label{
+    font-family:'Roboto';
+}
+
+.fila3 > label{
+    font-family:'Roboto';
+}
+
+.fila4 > label{
+    font-family:'Roboto';
+}
+.fila1 > input:focus {
+    
+    /*background-color:aqua;*/
+    border:0;
+    border:2px solid aqua;
+}
+
+.fila2 > input:focus{
+    /*background-color:aqua;*/
+    border:0;
+    border:2px solid aqua;
+}
+
+.fila3 > input:focus{
+    border:0;
+    border:2px solid aqua;
+    /*background-color:aqua;*/
+}
+
+.boton{
+    margin-top: 2em;
+    width:100%;
+    height:30px;
+    margin-bottom: 2em;
+}
+
+.alert{
+    width:40%;
+    margin: 0 auto;
+    height: 50px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    font-family:'Roboto';
+    margin-top: 1em;
+    margin-bottom: 0.8em;
+}
+
+.danger{
+    background-color: red;
+    color: white;
+}
+
+.success{
+    background-color: green;
+    color: white;
+}
